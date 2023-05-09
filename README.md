@@ -1,2 +1,2 @@
-# erlanoff_tg_bot
-Development tg bot on NodeJS
+# Telegram bot 
+This is a telegram bot for receiving messages from the site form

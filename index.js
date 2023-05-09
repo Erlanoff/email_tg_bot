@@ -29,7 +29,7 @@ app.post('/api/form', (req, res) => {
         const phone = req.body.phone
         const message = req.body.message
         bot.sendMessage(
-            745468706, 
+            process.env.CHAT_ID, 
             `Новазя заявка: 
                 Имя - ${name}, 
                 Телефон - ${phone}, 
